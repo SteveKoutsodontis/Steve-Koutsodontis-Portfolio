@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #111;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: italic;
+    font-family: "Papyrus", fantasy;
+    text-align: center;
+}
+
+.header {
+    padding: 20px;
+    font-family: "Papyrus", fantasy;
+    background-color: #aaa;
+    color: #ffffff;
+}
+
+.header div {
+    padding-top: 15px;
+    font-family: "Papyrus", fantasy;
+    font-size: 20px;
+    flex-flow: wrap;
+}
+
+.header li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url("../images/greek-islands-beach.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#About-Me {
+text-align: center;
+}
+
+.figure {
+    margin-bottom: 100px;
+    padding: 50px;
+    height: 300px;
+    font-family: "Papyrus", fantasy;
+    background-color: #aaa;
+    color: #ffffff;
+}
+
+.gallery {
+    margin-bottom: 100px;
+    padding: 50px;
+    height: 420px;
+    font-family: "Papyrus", fantasy;
+    background-color: #aaa;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.gallery img {
+    display: inline-block;
+    margin: 50px;
+}
+
+.figure h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+}
