@@ -44,7 +44,7 @@ h1 {
     padding-top: 15px;
     font-family: "Papyrus", fantasy;
     font-size: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     background-color: #a1a1a1;
     width: 80%;
     margin-left: 10%;
@@ -54,6 +54,9 @@ h1 {
 
 .main-header h1 {
     display: block;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 20px 20px;
 }
 
 .main-header li{
@@ -67,6 +70,9 @@ h1 {
 }
 .main-header div ul li{
     margin: 20px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 20px 20px;
 }
 
 .hero {
@@ -81,9 +87,8 @@ h1 {
 #About-Me {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    /* justify-content: flex-end; */
 }
+
 #About-Me img {
     height: 200px;
     width: 200px;
@@ -103,9 +108,7 @@ h1 {
     border-style: double;
     color: #ffffff;
     flex-shrink: inherit;
-    
 }
-
 
 .figure {
     margin-bottom: 200px;
