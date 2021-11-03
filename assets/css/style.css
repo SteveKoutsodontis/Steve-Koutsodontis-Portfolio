@@ -16,74 +16,149 @@ a {
 
 p {
     font-size: 16px;
+    
 }
+
 
 h1 {
     font-size: 48px;
     font-style: italic;
     font-family: "Papyrus", fantasy;
     text-align: center;
-}
-
-.header {
-    padding: 20px;
-    font-family: "Papyrus", fantasy;
-    background-color: #aaa;
     color: #ffffff;
 }
 
-.header div {
+.Header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: "Papyrus", fantasy;
+    background-color: #a1a1a1;
+    color: #ffffff;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 15px;
     font-family: "Papyrus", fantasy;
     font-size: 20px;
-    flex-flow: wrap;
+    margin-bottom: 200px;
+    background-color: #a1a1a1;
+    width: 80%;
+    margin-left: 10%;
+    border-style: double;
+    color: #ffffff;
 }
 
-.header li{
+.main-header h1 {
+    display: block;
+}
+
+.main-header li{
     list-style-type: none;
     text-align: center;
+}
+
+.main-header div ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-header div ul li{
+    margin: 20px;
 }
 
 .hero {
     height: 600px;
     width: 100%;
     margin-bottom: 50px;
-    background-image: url("../images/greek-islands-beach.jpg");
+    background-image: url("../images/landscape-gif.gif");
     background-size: cover;
     background-position: center;
 }
+
 #About-Me {
-text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+}
+#About-Me img {
+    height: 200px;
+    width: 200px;
+    border-style: double;
+    color: #ffffff;
+
 }
 
-.figure {
-    margin-bottom: 100px;
-    padding: 50px;
-    height: 300px;
-    font-family: "Papyrus", fantasy;
-    background-color: #aaa;
+#About-Me h2 {
+    font-size: 36px;
+    border-style: double;
     color: #ffffff;
+}
+
+#About-Me h3 {
+    font-size: 16px;
+    border-style: double;
+    color: #ffffff;
+    flex-shrink: inherit;
+    
+}
+
+
+.figure {
+    margin-bottom: 200px;
+    padding: 50px;
+    /* height: 500px; */
+    font-family: "Papyrus", fantasy;
+    background-color: #a1a1a1;
+    color: #ffffff;
+    border-style: double;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .gallery {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 50px;
-    height: 420px;
+    /* height: 420px; */
     font-family: "Papyrus", fantasy;
-    background-color: #aaa;
+    background-color: #a1a1a1;
     color: #ffffff;
     vertical-align: middle;
     text-align:center;
+    border-style: double;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .gallery img {
     display: inline-block;
     margin: 50px;
+    border-style: double;
+    color: #ffffff;
 }
 
-.figure h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.Links img {
+    display: inline-block;
+    margin: 50px;
+}
+
+
+.Links {
+    margin-bottom: 50px;
+    /* padding: 50px; */
+    /* height: 420px; */
+    font-family: "Papyrus", fantasy;
+    background-color: #a1a1a1;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align:center;
+    border-style: solid;
+    width: 50%;
+    margin: auto;
+
 }
 
 .footer {
@@ -94,3 +169,18 @@ text-align: center;
     font-size: 10px;
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+#fixed-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
