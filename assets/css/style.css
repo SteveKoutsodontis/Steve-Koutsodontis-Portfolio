@@ -13,12 +13,14 @@ a {
     text-decoration: none;
 
 }
-
-p {
-    font-size: 16px;
-    
+h4 {
+    border-radius: 20px 20px;
+    border-style: double;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 36px;
 }
-
 
 h1 {
     font-size: 48px;
@@ -26,6 +28,8 @@ h1 {
     font-family: "Papyrus", fantasy;
     text-align: center;
     color: #ffffff;
+    border-style: double;
+    border-radius: 20px 20px;
 }
 
 .Header {
@@ -47,16 +51,17 @@ h1 {
     margin-bottom: 100px;
     background-color: #a1a1a1;
     width: 80%;
-    margin-left: 10%;
+    margin: 100px auto;
     border-style: double;
     color: #ffffff;
+    border-radius: 20px 20px;
 }
 
 .main-header h1 {
     display: block;
-    border: 2px solid #ffffff;
     padding: 10px;
-    border-radius: 20px 20px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .main-header li{
@@ -70,9 +75,10 @@ h1 {
 }
 .main-header div ul li{
     margin: 20px;
-    border: 2px solid #ffffff;
     padding: 10px;
     border-radius: 20px 20px;
+    border-style: double;
+    color: #ffffff;
 }
 
 .hero {
@@ -84,16 +90,13 @@ h1 {
     background-position: center;
 }
 
-#About-Me {
-    display: flex;
-    flex-direction: row;
-}
-
 #About-Me img {
     height: 200px;
     width: 200px;
     border-style: double;
     color: #ffffff;
+    padding: 10px;
+    border-radius: 20px 20px;
 
 }
 
@@ -101,31 +104,40 @@ h1 {
     font-size: 36px;
     border-style: double;
     color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 20px 20px;
 }
 
 #About-Me h3 {
     font-size: 16px;
     border-style: double;
     color: #ffffff;
-    flex-shrink: inherit;
+    display: inline-block;
+    width: 80%;
+    border-radius: 20px 20px;
+    padding: 10px;
+    text-align: center;
 }
 
 .figure {
     margin-bottom: 200px;
     padding: 50px;
-    /* height: 500px; */
     font-family: "Papyrus", fantasy;
     background-color: #a1a1a1;
     color: #ffffff;
     border-style: double;
     width: 80%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 20px 20px;
 }
 
 .gallery {
     margin-bottom: 200px;
     padding: 50px;
-    /* height: 420px; */
     font-family: "Papyrus", fantasy;
     background-color: #a1a1a1;
     color: #ffffff;
@@ -134,6 +146,12 @@ h1 {
     border-style: double;
     width: 80%;
     margin-left: 10%;
+    border-radius: 20px 20px;
+}
+
+.gallery h2 p {
+    border-radius: 20px 20px;
+    margin: 0 auto;
 }
 
 .gallery img {
@@ -151,8 +169,6 @@ h1 {
 
 .Links {
     margin-bottom: 50px;
-    /* padding: 50px; */
-    /* height: 420px; */
     font-family: "Papyrus", fantasy;
     background-color: #a1a1a1;
     color: #ffffff;
@@ -161,9 +177,17 @@ h1 {
     border-style: solid;
     width: 50%;
     margin: auto;
+    border-radius: 20px 20px;
 
 }
 
+.Links h2 {
+    margin: auto;
+    border-radius: 20px 20px;
+    border-style: double;
+    color: #ffffff;
+    width: 30%;
+}
 .footer {
     padding: 30px;
     clear: both;
