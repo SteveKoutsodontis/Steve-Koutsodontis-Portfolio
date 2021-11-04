@@ -1,6 +1,6 @@
 # Portfolio
 
- ## Welcome to Scott Geleas's portfolio!
+ ## Welcome to Steve Koutsodontis's portfolio!
 
 > This portfolio was built with resposive desgin. Every element on this page is resposive when scaled down to smaller size screens. 
 It has been made utilizing flexbox properties and media querys to acheive this. Below are two screenshots from different screen sizes.
@@ -12,7 +12,7 @@ The works images also get pushed into a column. The clickable links to my email,
 
  ## Getting Started:
 
-The page is live at https://scottgeleas.github.io/Portfolio/.
+The page is live at .
 
  ## Prerequisites:
 
@@ -24,7 +24,7 @@ If you want to edit this web page you must have a Github account, and have also 
 
  ### Authors:
 
- Scott Geleas
+ Steve Koutsodontis
 
  ### Built With:
 
@@ -32,15 +32,11 @@ If you want to edit this web page you must have a Github account, and have also 
 - CSS
 - Visual Studio Code
 
- ### Acknowledgments:
-
-University of New Hampshire Coding Bootcamp
-
  ### License: 
  
 MIT License
 
-Copyright (c) [2021] [Scott Geleas]]
+Copyright (c) [2021] [Steve Koutsodontis]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
