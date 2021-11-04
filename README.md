@@ -4,15 +4,13 @@
 
 > This portfolio was built with resposive desgin. Every element on this page is resposive when scaled down to smaller size screens. 
 It has been made utilizing flexbox properties and media querys to acheive this. Below are two screenshots from different screen sizes.
-In these examples, when the screen size is small enough, the navagtion bar changes into a column, drops below the header, and the colors change. 
-The works images also get pushed into a column. The clickable links to my email, LinkedIn, and Github get pushed togther on mobile for easy clicking. When on mobile, the avatar image will be centerd on the background image.
 
-![Desktop](assets/images/desktopPortfolio.png)
-![Mobile](assets/images/mobilePortfolio.png)
+![Desktop](assets/images/desktopPortfolio1.jpg)
+![Mobile](assets/images/mobilPortfolio.jpg)
 
  ## Getting Started:
 
-The page is live at .
+The page is live at https://smk778.github.io/Steve-Koutsodontis-Portfolio/.
 
  ## Prerequisites:
 
