@@ -10,7 +10,7 @@ It has been made utilizing flexbox properties and media querys to acheive this. 
 
  ## Getting Started:
 
-The page is live at https://smk778.github.io/Steve-Koutsodontis-Portfolio/.
+The page is live at https://stevekoutsodontis.github.io/Steve-Koutsodontis-Portfolio/.
 
  ## Prerequisites:
 
