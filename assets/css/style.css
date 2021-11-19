@@ -17,7 +17,7 @@ h4 {
     border-radius: 20px 20px;
     border-style: double;
     color: #ffffff;
-    margin: 0 auto;
+    margin: 5% auto;
     width: 20%;
     font-size: 36px;
 }
@@ -159,6 +159,7 @@ h1 {
     margin: 50px;
     border-style: double;
     color: #ffffff;
+    text-align: center;
 }
 
 .Links img {
@@ -175,7 +176,7 @@ h1 {
     vertical-align: middle;
     text-align:center;
     border-style: solid;
-    width: 50%;
+    width: 70%;
     margin: auto;
     border-radius: 20px 20px;
 
