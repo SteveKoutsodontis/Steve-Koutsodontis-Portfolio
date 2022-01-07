@@ -5,8 +5,8 @@
 > This portfolio was built with resposive desgin. Every element on this page is resposive when scaled down to smaller size screens. 
 It has been made utilizing flexbox properties and media querys to acheive this. Below are two screenshots from different screen sizes.
 
-![Desktop](assets/images/desktopPortfolio1.jpg)
-![Mobile](assets/images/mobilPortfolio.jpg)
+![Desktop](assets/images/skdt1.jpg)
+![Mobile](assets/images/skmb1.jpg)
 
  ## Getting Started:
 
